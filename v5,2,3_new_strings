@@ -14,29 +14,29 @@
 // ---------------------------------------------------------------------------
 // BEGIN NEW STRINGS ADDED FOR v5.2.3
 
-"cdm_install_script_alert_title" = "Action Required For Closed-Display Mode on Apple Silicon";
+"cdm_install_script_alert_title" = "Action requise pour le mode d'écran fermé sur Apple Silicon";
 
-"cdm_install_script_alert_body" = "Due to hardware changes introduced with Apple Silicon, Closed-Display Mode has new requirements.\n\nTo be able to connect or disconnect your Mac's power adapter without interrupting the Closed-Display Mode session, Amphetamine needs to install and run a script whenever a Closed-Display Mode session begins or ends. The script must be installed in Amphetamine's Application Scripts folder.\n\nEach time the script runs, authentication will be required. The authentication prompt will say \"osascript wants to make changes.\" After you authenticate, the script will run. If you do not want to authenticate each Closed-Display Mode session, click the Skip button below.\n\nIf you skip installing the Closed-Display Mode script, you won't be asked about this again, and you may experience closed-display mode session interruptions when connecting or disconnecting your Mac's power adapter. If you select Skip but later want to install the script, go to Amphetamine Settings → General, click Reset Warnings and Dialogs, and start a Closed-Display Mode session.";
+"cdm_install_script_alert_body" = "En raison des changements matériels introduits avec Apple Silicon, le mode d'écran fermé a de nouvelles exigences.\n\nPour pouvoir connecter ou déconnecter l'adaptateur secteur de votre Mac sans interrompre la session en mode d'écran fermé, Amphetamine doit installer et exécuter un script chaque fois qu'un La session en mode écran fermé commence ou se termine. Le script doit être installé dans le dossier Application Scripts d'Amphetamine.\n\nChaque fois que le script s'exécute, une authentification sera requise. L'invite d'authentification indiquera \"osascript veut apporter des modifications.\" Après vous être authentifié, le script s'exécutera. Si vous ne souhaitez pas authentifier chaque session en mode d'affichage fermé, cliquez sur le bouton Ignorer ci-dessous.\n\nSi vous ignorez l'installation du script du mode d'affichage fermé, vous ne serez plus interrogé à ce sujet et vous risquez de rencontrer des problèmes de fermeture. Des interruptions de session en mode écran fermé pourront avoir lieux lors de la connexion ou de la déconnexion de l'adaptateur secteur de votre Mac. Si vous sélectionnez Ignorer mais souhaitez installer le script ultérieurement, accédez aux réglages d'amphétamine → Général, cliquez sur Réinitialiser les avertissements et les boîtes de dialogue, puis démarrez une session en mode Affichage fermé..";
 
-"cdm_install_script_button" = "Install Script";
+"cdm_install_script_button" = "Installer le Script";
 
-"cdm_skip_script_button" = "Skip";
+"cdm_skip_script_button" = "Ignorer";
 
-"cdm_remind_me_script_button" = "Remind Me Later";
+"cdm_remind_me_script_button" = "Me le rappeler plus tard";
 
-"cdm_anomaly_alert_title" = "Amphetamine detected an anomaly with your Mac's sleep settings.";
+"cdm_anomaly_alert_title" = "Aamphétamine a détecté une anomalie avec les réglages de veille de votre Mac.";
 
-"cdm_anomaly_alert_body" = "An Amphetamine session is not currently active, but your Mac appears to be configured to prevent sleep when in Closed-Display Mode. This can lead to unexpected battery drain and/or overheating.\n\nTo correct this issue, Amphetamine needs to run, and if necessary, install a script. You will be prompted to install the script, if needed, and then prompted to authenticate running the script.\n\nThis issue may have occurred due to a Amphetamine crashing during a Closed-Display Mode session, or by someone manually disabling sleep on your Mac.";
+"cdm_anomaly_alert_body" = "Aucune session d'amphétamine n'est actuellement active, mais votre Mac semble être configuré pour empêcher la mise en veille lorsqu'il est en mode d'écran fermé. Cela peut entraîner une décharge inattendue de la batterie et/ou une surchauffe.\n\nPour corriger ce problème, Amphetamine doit exécuter et, si nécessaire, installer un script. Vous serez invité à installer le script, s'il n'est pas installé, puis à vous authentifier lors de l'exécution du script.\n\nCe problème peut être dû au plantage d'amphétamine lors d'une session en mode d'écran fermé, ou à quelqu'un qui a désactivé manuellement la mise en veille sur votre Mac.";
 
-"cdm_anomaly_alert_ignore_button" = "Ignore";
+"cdm_anomaly_alert_ignore_button" = "Ignorer";
 
-"cdm_anomaly_alert_fix_button" = "Fix Issue";
+"cdm_anomaly_alert_fix_button" = "Corriger le problème";
 
-"cdm_script_fail_alert_title" = "Closed-Display Mode Script Failure";
+"cdm_script_fail_alert_title" = "Échec du script du mode d'affichage fermé";
 
-"cdm_script_fail_alert_body_disable" = "Amphetamine attempted to run a script to disable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be preventing sleep when the display is closed. This can lead to unexpected battery drain or overheating.\n\nWhen Amphetamine prompts you to fix this issue, it is highly recommended you choose \"Fix Issue.\" You'll be prompted to authenticate allowing \"osascript\" to make changes.";
+"cdm_script_fail_alert_body_disable" = "Amphétamine a essayé d'exécuter un script pour désactiver le mode d'écran fermé, mais le script n'a pas été authentifié avec succès ou a été annulé.\n\nVotre Mac peut toujours empêcher la mise en veille lorsque l'écran est fermé. Cela peut entraîner une décharge ou une surchauffe inattendue de la batterie.\n\nLorsque Amphetamine vous invite à résoudre ce problème, il est fortement recommandé de choisir \"Résoudre le problème\". Vous serez invité à vous authentifier pour permettre à \"osascript\" de faire le changements.";
 
-"cdm_script_fail_alert_body_enable" = "Amphetamine attempted to run a script to enable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be allowing sleep when the display is closed.\n\nTo fix this issue, end the current session and start a new one. When prompted to allow \"osascript\" to make changes, follow the on-screen directions to successfully authenticate.";
+"cdm_script_fail_alert_body_enable" = "Amphétamine a tenté d'exécuter un script pour activer le mode d'écran fermé, mais le script n'a pas été authentifié avec succès ou a été annulé.\n\nVotre Mac peut encore autoriser la mise en veille lorsque l'écran est fermé.\n\nPour résoudre ce problème , terminez la session en cours et démarrez-en une nouvelle. Lorsque vous êtes invité à autoriser \"osascript\" à apporter des modifications, suivez les instructions à l'écran pour vous authentifier avec succès";
 
 // END NEW STRINGS ADDED FOR v5.2.3
 // ---------------------------------------------------------------------------
